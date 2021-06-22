@@ -1,0 +1,16 @@
+version: '3'
+services:
+  inferno:
+    build:
+      context: ./
+    volumes:
+      - ./data:/opt/inferno/data
+    ports:
+      - "4567:4567"
+    depends_on:
+      - validator_service
+  validator_service:
+    image: infernocommunity/fhir-validator-service
+    # Update this path to match your directory structure
+    volumes:
+      - ./lib/inferno_template/igs:/home/igs
