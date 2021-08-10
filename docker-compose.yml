@@ -14,3 +14,16 @@ services:
     # Update this path to match your directory structure
     volumes:
       - ./lib/inferno_template/igs:/home/igs
+  redis:
+    image: redis
+    volumes:
+      - ./data/redis:/data
+    command: redis-server --appendonly yes
+  worker:
+    build:
+      context: ./
+    volumes:
+      - ./data:/opt/inferno/data
+    command: bundle exec sidekiq -r ./worker.rb
+    depends_on:
+      - redis

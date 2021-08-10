@@ -13,7 +13,10 @@ This is a template repository for an
   validate resources against your IG.
 - Run `docker-compose build` in this repo.
 - Run `docker-compose pull` in this repo.
+- Run `docker-compose run inferno bundle exec rake db:migrate` to set up the
+  database.
 - Run `docker-compose up` in this repo.
+- Navigate to `http://localhost:4567`. Your test suite will be available.
 - Navigate to `http://localhost:4567`. Your test suite will be available.
 
 ## Distributing tests
