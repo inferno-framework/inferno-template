@@ -1,4 +1,6 @@
 /data/*.db
+/data/redis/*.rdb
+/data/redis/*.aof
 /tmp
 .env.local
 .env.*.local
