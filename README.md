@@ -17,7 +17,6 @@ This is a template repository for an
   database.
 - Run `docker-compose up` in this repo.
 - Navigate to `http://localhost:4567`. Your test suite will be available.
-- Navigate to `http://localhost:4567`. Your test suite will be available.
 
 ## Distributing tests
 
