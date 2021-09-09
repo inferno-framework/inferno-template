@@ -17,8 +17,7 @@ This is a template repository for an
   database.
 - Run `docker-compose up` in this repo.
 - Navigate to `http://localhost` to access Inferno, where your test suite will
-be available. To access the FHIR resource validator, navigate to 
-'http://localhost/validator'.
+be available. To access the FHIR resource validator, navigate to `http://localhost/validator`.
 
 ## Distributing tests
 
