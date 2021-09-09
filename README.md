@@ -16,7 +16,9 @@ This is a template repository for an
 - Run `docker-compose run inferno bundle exec rake db:migrate` to set up the
   database.
 - Run `docker-compose up` in this repo.
-- Navigate to `http://localhost:4567`. Your test suite will be available.
+- Navigate to `http://localhost` to access Inferno, where your test suite will
+be available. To access the FHIR resource validator, navigate to 
+'http://localhost/validator'.
 
 ## Distributing tests
 
