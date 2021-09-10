@@ -11,13 +11,12 @@ This is a template repository for an
   `lib/your_test_kit_name/igs` and update this path in `docker-compose.yml`.
   This will ensure that the validator has access to the resources needed to
   validate resources against your IG.
-- Run `docker-compose build` in this repo.
-- Run `docker-compose pull` in this repo.
-- Run `docker-compose run inferno bundle exec rake db:migrate` to set up the
+- Run `setup.sh` in this repo to pull the needed docker images and set up the
   database.
-- Run `docker-compose up` in this repo.
+- Run `run.sh` to build your tests and run inferno.
 - Navigate to `http://localhost` to access Inferno, where your test suite will
-be available. To access the FHIR resource validator, navigate to `http://localhost/validator`.
+  be available. To access the FHIR resource validator, navigate to
+  `http://localhost/validator`.
 
 ## Distributing tests
 
