@@ -120,6 +120,10 @@ RSpec.configure do |config|
   end
 end
 
+require 'inferno/config/application'
+require 'inferno/utils/migration'
+Inferno::Utils::Migration.new.run
+
 require 'inferno'
 Inferno::Application.finalize!
 
