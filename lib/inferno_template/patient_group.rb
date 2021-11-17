@@ -34,6 +34,7 @@ module InfernoTemplate
       uses_request :patient
 
       run do
+        assert_resource_type(:patient)
         assert_valid_resource
       end
     end
