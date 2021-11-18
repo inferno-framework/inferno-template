@@ -18,6 +18,11 @@ This is a template repository for an
   be available. To access the FHIR resource validator, navigate to
   `http://localhost/validator`.
 
+## Documentation
+- [Inferno documentation](https://inferno-framework.github.io/inferno-core/)
+- [Ruby API documentation](https://inferno-framework.github.io/inferno-core/docs)
+- [JSON API documentation](https://inferno-framework.github.io/inferno-core/api-docs)
+
 ## Distributing tests
 
 In order to make your test suite available to others, it needs to be organized
