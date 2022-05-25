@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    inferno_template (0.0.2)
+    inferno_template (0.0.1)
       inferno_core (~> 0.3.0)
 
 GEM
@@ -248,4 +248,4 @@ DEPENDENCIES
   webmock (~> 3.11)
 
 BUNDLED WITH
-   2.2.22
+   2.3.14
