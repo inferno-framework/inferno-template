@@ -13,10 +13,12 @@ This is a template repository for an
   validate resources against your IG.
 - Run `setup.sh` in this repo to pull the needed docker images and set up the
   database.
-- Run `run.sh` to build your tests and run inferno.
+- Run `run.sh` to build your tests and run Inferno.
 - Navigate to `http://localhost` to access Inferno, where your test suite will
   be available. To access the FHIR resource validator, navigate to
   `http://localhost/validator`.
+- After making changes to your test files, terminate Inferno and 
+  re-run `run.sh` to incorporate your updated tests.
 
 ## Documentation
 - [Inferno documentation](https://inferno-framework.github.io/inferno-core/)
