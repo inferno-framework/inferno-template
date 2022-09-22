@@ -6,12 +6,24 @@ module InfernoTemplate
     title 'Inferno Test Suite Template'
     description 'A basic test suite template for Inferno'
 
-    # This input will be available to all tests in this suite
-    input :url
+    # These inputs will be available to all tests in this suite
+    input :url,
+          title: 'FHIR Server Base Url'
+
+    input :credentials,
+          title: 'OAuth Credentials',
+          type: :oauth_credentials,
+          optional: true
 
     # All FHIR requests in this suite will use this FHIR client
     fhir_client do
       url :url
+      oauth_credentials :credentials
+    end
+
+    # All FHIR validation requsets will use this FHIR validator
+    validator do
+      url ENV.fetch('VALIDATOR_URL')
     end
 
     # Tests and TestGroups can be defined inline

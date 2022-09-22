@@ -10,7 +10,9 @@ module InfernoTemplate
         Verify that Patient resources can be read from the server.
       )
 
-      input :patient_id
+      input :patient_id,
+            title: 'Patient ID'
+
       # Named requests can be used by other tests
       makes_request :patient
 
