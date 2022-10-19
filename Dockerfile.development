@@ -1,0 +1,18 @@
+FROM ruby:2.7.3
+
+ENV INSTALL_PATH=/opt/inferno/
+ENV APP_ENV=development
+RUN mkdir -p $INSTALL_PATH
+
+WORKDIR $INSTALL_PATH
+
+RUN curl -ksSL https://gitlab.mitre.org/mitre-scripts/mitre-pki/raw/master/os_scripts/install_certs.sh | MODE=ubuntu sh
+RUN gem install bundler
+RUN gem install foreman
+ADD *.gemspec $INSTALL_PATH
+ADD Gemfile* $INSTALL_PATH
+RUN bundle install
+
+ADD . $INSTALL_PATH
+
+EXPOSE 4567

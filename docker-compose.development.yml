@@ -3,17 +3,19 @@ services:
   inferno:
     build:
       context: ./
+      dockerfile: Dockerfile.development
     volumes:
-      - ./data:/opt/inferno/data
+      - ./:/opt/inferno
+    ports:
+      - target: 4567
+        published: 4567
+        mode: host
+    environment:
+      - VALIDATOR_URL=http://validator_service/validatorapi
+      - REDIS_URL=redis://redis:6379/0
     depends_on:
       - validator_service
-  worker:
-    build:
-      context: ./
-    volumes:
-      - ./data:/opt/inferno/data
-    command: bundle exec sidekiq -r ./worker.rb
-    depends_on:
+      - nginx
       - redis
   validator_service:
     extends:
@@ -27,8 +29,6 @@ services:
     extends:
       file: docker-compose.background.yml
       service: nginx
-    volumes:
-      - ./config/nginx.conf:/etc/nginx/nginx.conf
   redis:
     extends:
       file: docker-compose.background.yml
