@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     inferno_template (0.0.1)
-      inferno_core (~> 0.4.2, >= 0.4.2)
+      inferno_core (~> 0.4.2)
 
 GEM
   remote: https://rubygems.org/
