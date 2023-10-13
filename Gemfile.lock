@@ -245,7 +245,7 @@ GEM
     rspec-support (3.11.0)
     ruby2_keywords (0.0.5)
     sequel (5.42.0)
-    sidekiq (6.5.8)
+    sidekiq (6.5.12)
       connection_pool (>= 2.2.5, < 3)
       rack (~> 2.0)
       redis (>= 4.5.0, < 5)
