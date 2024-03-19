@@ -1,27 +1,28 @@
-# Inferno Template
+# Inferno Test Kit Template
 
-This is a template repository for an
-[Inferno](https://github.com/inferno-community/inferno-core) test kit.
+This is a starter template for creating an
+Inferno Test Kit. This repository includes everything you need to start writing tests and running your Test Kit.
+
+## Instructions for Developing Your Test Kit
+
+To get started, create your new Test Kit by clicking "Use this template" on
+Github. Refer to the Inferno documentation for information about [setting up
+your development environment and running
+your Test Kit](https://inferno-framework.github.io/docs/getting-started/).
+
+More information about what is included in this repository can be [found here](https://inferno-framework.github.io/docs/getting-started/repo-layout-and-organization.html).
 
 ## Documentation
-- [Inferno documentation](https://inferno-framework.github.io/inferno-core/)
-- [Ruby API documentation](https://inferno-framework.github.io/inferno-core/docs)
-- [JSON API documentation](https://inferno-framework.github.io/inferno-core/api-docs)
+- [Inferno documentation](https://inferno-framework.github.io/docs/)
+- [Ruby API documentation](https://inferno-framework.github.io/inferno-core/docs/)
+- [JSON API documentation](https://inferno-framework.github.io/inferno-core/api-docs/)
 
-## Instructions for Developing tests
+## Example Inferno Test Kits
 
-To get started writing tests, clone this repo/Click "Use this template" on
-github. Refer to the Inferno documentation for information about [setting up
-your development environment and running
-Inferno](https://inferno-framework.github.io/inferno-core/getting-started.html#getting-started-for-inferno-test-writers).
-
-## Example Inferno test kits
-
-- https://github.com/inferno-community/ips-test-kit
-- https://github.com/inferno-community/shc-vaccination-test-kit
+A list of all Test Kits registered with the Inferno Team can be found on the [Test Kit Registry](https://inferno-framework.github.io/community/test-kits.html) page.
 
 ## License
-Copyright 2022 The MITRE Corporation
+Copyright 2024 The MITRE Corporation
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use
 this file except in compliance with the License. You may obtain a copy of the
