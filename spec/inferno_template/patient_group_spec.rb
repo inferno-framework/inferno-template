@@ -1,8 +1,8 @@
 RSpec.describe InfernoTemplate::PatientGroup do
-  let(:suite) { Inferno::Repositories::TestSuites.new.find('test_suite_template') }
+  let(:suite) { Inferno::Repositories::TestSuites.new.find('inferno_template_test_suite') }
   let(:group) { suite.groups[1] }
   let(:session_data_repo) { Inferno::Repositories::SessionData.new }
-  let(:test_session) { repo_create(:test_session, test_suite_id: 'test_suite_template') }
+  let(:test_session) { repo_create(:test_session, test_suite_id: 'inferno_template_test_suite') }
   let(:url) { 'http://example.com/fhir' }
   let(:error_outcome) { FHIR::OperationOutcome.new(issue: [{ severity: 'error' }]) }
 
