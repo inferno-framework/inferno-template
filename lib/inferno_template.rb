@@ -2,9 +2,9 @@ require_relative 'inferno_template/patient_group'
 
 module InfernoTemplate
   class Suite < Inferno::TestSuite
-    id :test_suite_template
-    title 'Inferno Test Suite Template'
-    description 'A basic test suite template for Inferno'
+    id :inferno_template_test_suite
+    title 'Inferno Template Test Suite'
+    description 'Inferno template test suite.'
 
     # These inputs will be available to all tests in this suite
     input :url,
