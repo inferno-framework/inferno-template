@@ -9,6 +9,7 @@ module InfernoTemplate
       description %(
         Verify that Patient resources can be read from the server.
       )
+      verifies_requirements 'inferno-template_req-tools@2'
 
       input :patient_id,
             title: 'Patient ID'
@@ -31,6 +32,7 @@ module InfernoTemplate
       description %(
         Verify that the Patient resource returned from the server is a valid FHIR resource.
       )
+      verifies_requirements 'inferno-template_req-tools@3'
       # This test will use the response from the :patient request in the
       # previous test
       uses_request :patient

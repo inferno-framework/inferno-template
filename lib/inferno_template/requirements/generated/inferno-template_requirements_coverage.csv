@@ -1,0 +1,4 @@
+﻿Req Set,ID,URL,Requirement,Conformance,Actor,Sub-Requirement(s),Conditionality,Inferno Template Test Suite Short ID(s),Inferno Template Test Suite Full ID(s)
+inferno-template_req-tools,1,,The Server **SHALL** respond to a GET request to `[fhirbase]/metadata` with a valid CapabilityStatement resource,SHALL,Server,,FALSE,1.01,inferno_template_test_suite-capability_statement-capability_statement_read
+inferno-template_req-tools,2,,The Server **SHALL** support the read interaction for the Patient resource,SHALL,Server,,FALSE,2.01,inferno_template_test_suite-patient_group-Test01
+inferno-template_req-tools,3,,Patient instances returned by the server **SHALL** conform to the requirements of the Patient resource,SHALL,Server,,FALSE,2.02,inferno_template_test_suite-patient_group-Test02

@@ -1,3 +1,4 @@
+require_relative 'inferno_requirements_tools/ext/inferno_core/runnable'
 require_relative 'inferno_template/patient_group'
 
 module InfernoTemplate
@@ -41,6 +42,7 @@ module InfernoTemplate
         id :capability_statement_read
         title 'Read CapabilityStatement'
         description 'Read CapabilityStatement from /metadata endpoint'
+        verifies_requirements 'inferno-template_req-tools@1'
 
         run do
           fhir_get_capability_statement

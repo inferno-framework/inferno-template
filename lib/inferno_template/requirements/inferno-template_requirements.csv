@@ -1,0 +1,4 @@
+﻿Req Set,ID,URL,Requirement,Conformance,Actor,Sub-Requirement(s),Conditionality
+inferno-template_req-tools,1,,The Server **SHALL** respond to a GET request to `[fhirbase]/metadata` with a valid CapabilityStatement resource,SHALL,Server,,FALSE
+inferno-template_req-tools,2,,The Server **SHALL** support the read interaction for the Patient resource,SHALL,Server,,FALSE
+inferno-template_req-tools,3,,Patient instances returned by the server **SHALL** conform to the requirements of the Patient resource,SHALL,Server,,FALSE
