@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.description   = 'Inferno template Inferno test kit for FHIR'
   # spec.homepage      = 'TODO'
   spec.license       = 'Apache-2.0'
-  spec.add_runtime_dependency 'inferno_core', '~> 0.4.43'
+  spec.add_runtime_dependency 'inferno_core', '~> 0.5.0'
   spec.add_development_dependency 'database_cleaner-sequel', '~> 1.8'
   spec.add_development_dependency 'factory_bot', '~> 6.1'
   spec.add_development_dependency 'rspec', '~> 3.10'
