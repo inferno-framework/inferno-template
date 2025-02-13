@@ -3,6 +3,16 @@
 Inferno template [Inferno](https://github.com/inferno-community/inferno-core) Test Kit
 for FHIR testing.
 
+## Getting Started
+
+The quickest way to run this test kit locally is with [Docker](https://www.docker.com/).
+
+- Install Docker
+- Clone this repository, or download an [official release](/releases) if available.
+- Run `./setup.sh` within the test kit directory to download necessary dependencies
+- Run `./run.sh` within the test kit directory to start the application
+- Navigate to `http://localhost`
+
 ## Instructions for Developing Your Test Kit
 
 Refer to the Inferno documentation for information about [setting up
@@ -20,7 +30,7 @@ More information about what is included in this repository can be [found here](h
 A list of all Test Kits registered with the Inferno Team can be found on the [Test Kit Registry](https://inferno-framework.github.io/community/test-kits.html) page.
 
 ## License
-Copyright 2024 TODO
+Copyright 2025 TODO
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use
 this file except in compliance with the License. You may obtain a copy of the
