@@ -3,7 +3,6 @@ require_relative 'example_suite/patient_group'
 
 module InfernoTemplate
   class ExampleSuite < Inferno::TestSuite
-
     id :inferno_template
     title 'Inferno Template'
     short_title 'Inferno Template'

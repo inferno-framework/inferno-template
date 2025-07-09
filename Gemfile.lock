@@ -295,9 +295,13 @@ GEM
     rubocop-ast (1.45.1)
       parser (>= 3.3.7.2)
       prism (~> 1.4)
+    rubocop-rake (0.6.0)
+      rubocop (~> 1.0)
     rubocop-rspec (3.6.0)
       lint_roller (~> 1.1)
       rubocop (~> 1.72, >= 1.72.1)
+    rubocop-sequel (0.3.4)
+      rubocop (~> 1.0)
     ruby-progressbar (1.13.0)
     ruby2_keywords (0.0.5)
     rubyzip (2.4.1)
@@ -366,7 +370,9 @@ DEPENDENCIES
   rack-test
   rspec (~> 3.10)
   rubocop (~> 1.9)
+  rubocop-rake
   rubocop-rspec
+  rubocop-sequel
   simplecov (= 0.21.2)
   webmock (~> 3.11)
 
