@@ -199,21 +199,7 @@ GEM
     mutex_m (0.3.0)
     netrc (0.11.0)
     nio4r (2.7.4)
-    nokogiri (1.18.8-aarch64-linux-gnu)
-      racc (~> 1.4)
-    nokogiri (1.18.8-aarch64-linux-musl)
-      racc (~> 1.4)
-    nokogiri (1.18.8-arm-linux-gnu)
-      racc (~> 1.4)
-    nokogiri (1.18.8-arm-linux-musl)
-      racc (~> 1.4)
     nokogiri (1.18.8-arm64-darwin)
-      racc (~> 1.4)
-    nokogiri (1.18.8-x86_64-darwin)
-      racc (~> 1.4)
-    nokogiri (1.18.8-x86_64-linux-gnu)
-      racc (~> 1.4)
-    nokogiri (1.18.8-x86_64-linux-musl)
       racc (~> 1.4)
     oauth2 (1.4.11)
       faraday (>= 0.17.3, < 3.0)
@@ -295,9 +281,15 @@ GEM
     rubocop-ast (1.46.0)
       parser (>= 3.3.7.2)
       prism (~> 1.4)
+    rubocop-rake (0.7.1)
+      lint_roller (~> 1.1)
+      rubocop (>= 1.72.1)
     rubocop-rspec (3.6.0)
       lint_roller (~> 1.1)
       rubocop (~> 1.72, >= 1.72.1)
+    rubocop-sequel (0.4.1)
+      lint_roller (~> 1.1)
+      rubocop (>= 1.72.1, < 2)
     ruby-progressbar (1.13.0)
     ruby2_keywords (0.0.5)
     rubyzip (2.4.1)
@@ -313,11 +305,7 @@ GEM
       simplecov_json_formatter (~> 0.1)
     simplecov-html (0.13.2)
     simplecov_json_formatter (0.1.4)
-    sqlite3 (1.7.3-aarch64-linux)
-    sqlite3 (1.7.3-arm-linux)
     sqlite3 (1.7.3-arm64-darwin)
-    sqlite3 (1.7.3-x86_64-darwin)
-    sqlite3 (1.7.3-x86_64-linux)
     stringio (3.1.7)
     strings (0.2.1)
       strings-ansi (~> 0.2)
@@ -346,17 +334,7 @@ GEM
     zeitwerk (2.7.3)
 
 PLATFORMS
-  aarch64-linux
-  aarch64-linux-gnu
-  aarch64-linux-musl
-  arm-linux
-  arm-linux-gnu
-  arm-linux-musl
-  arm64-darwin
-  x86_64-darwin
-  x86_64-linux
-  x86_64-linux-gnu
-  x86_64-linux-musl
+  arm64-darwin-23
 
 DEPENDENCIES
   database_cleaner-sequel (~> 1.8)
