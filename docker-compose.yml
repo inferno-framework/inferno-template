@@ -1,4 +1,3 @@
-version: '3'
 services:
   inferno:
     build:
@@ -41,3 +40,6 @@ services:
     extends:
       file: docker-compose.background.yml
       service: redis
+
+volumes:
+  redis_data:
