@@ -1,7 +1,7 @@
 [
   {
-    "id": "c7770e47-3e51-43fd-b8cd-a971959c006d",
-    "created_at": "2026-03-02T22:36:46.497-05:00",
+    "id": "17db3926-6d2f-425d-98b5-fa3ff5e7726a",
+    "created_at": "2026-09-04T16:54:42.443+00:00",
     "inputs": [
       {
         "name": "url",
@@ -10,7 +10,7 @@
       },
       {
         "name": "credentials",
-        "value": "{\"auth_type\":\"public\",\"access_token\":\"SAMPLE_TOKEN\",\"issue_time\":\"2026-03-02T22:36:46-05:00\",\"name\":\"credentials\"}",
+        "value": "{\"auth_type\":\"public\",\"access_token\":\"SAMPLE_TOKEN\",\"issue_time\":\"2026-09-04T16:54:41+00:00\",\"name\":\"credentials\"}",
         "type": "auth_info"
       }
     ],
@@ -18,25 +18,25 @@
     "outputs": [],
     "requests": [
       {
-        "id": "7d67c8ca-76d2-4253-acb4-e1e5a0f90c1a",
+        "id": "88ca2852-400f-4a64-8105-7106df7c2bcb",
         "direction": "outgoing",
         "index": 1,
-        "result_id": "c7770e47-3e51-43fd-b8cd-a971959c006d",
+        "result_id": "17db3926-6d2f-425d-98b5-fa3ff5e7726a",
         "status": 200,
-        "timestamp": "2026-03-02T22:36:46.498-05:00",
+        "timestamp": "2026-09-04T16:54:42.445+00:00",
         "url": "https://inferno.healthit.gov/reference-server/r4/metadata",
         "verb": "get"
       }
     ],
     "result": "pass",
     "test_id": "inferno_template-capability_statement-capability_statement_read",
-    "test_run_id": "d0c43855-184a-4dcd-976e-83d6f99a996c",
-    "test_session_id": "eVoeqbmbIJV",
-    "updated_at": "2026-03-02T22:36:46.497-05:00"
+    "test_run_id": "b4c8716a-fbee-4b4f-9e3a-3767c877e493",
+    "test_session_id": "awY9MBkNDt2",
+    "updated_at": "2026-09-04T16:54:42.443+00:00"
   },
   {
-    "id": "6e3dd213-c012-4a3c-b6de-3d1ad0c5951d",
-    "created_at": "2026-03-02T22:36:46.508-05:00",
+    "id": "c903328f-5fec-49b8-981e-f560e3a02455",
+    "created_at": "2026-09-04T16:54:42.450+00:00",
     "inputs": [
       {
         "name": "url",
@@ -49,7 +49,7 @@
         "name": "credentials",
         "label": "OAuth Credentials",
         "description": null,
-        "value": "{\"auth_type\":\"public\",\"access_token\":\"SAMPLE_TOKEN\",\"issue_time\":\"2026-03-02T22:36:46-05:00\",\"name\":\"credentials\"}",
+        "value": "{\"auth_type\":\"public\",\"access_token\":\"SAMPLE_TOKEN\",\"issue_time\":\"2026-09-04T16:54:41+00:00\",\"name\":\"credentials\"}",
         "type": "auth_info"
       }
     ],
@@ -58,13 +58,13 @@
     "requests": [],
     "result": "pass",
     "test_group_id": "inferno_template-capability_statement",
-    "test_run_id": "d0c43855-184a-4dcd-976e-83d6f99a996c",
-    "test_session_id": "eVoeqbmbIJV",
-    "updated_at": "2026-03-02T22:36:46.508-05:00"
+    "test_run_id": "b4c8716a-fbee-4b4f-9e3a-3767c877e493",
+    "test_session_id": "awY9MBkNDt2",
+    "updated_at": "2026-09-04T16:54:42.450+00:00"
   },
   {
-    "id": "98887da7-6525-4545-bb12-865c376f1889",
-    "created_at": "2026-03-02T22:36:46.629-05:00",
+    "id": "720456bf-c3f7-4ce2-b01c-62fe26df1c78",
+    "created_at": "2026-09-04T16:54:42.862+00:00",
     "inputs": [
       {
         "name": "patient_id",
@@ -78,7 +78,7 @@
       },
       {
         "name": "credentials",
-        "value": "{\"auth_type\":\"public\",\"access_token\":\"SAMPLE_TOKEN\",\"issue_time\":\"2026-03-02T22:36:46-05:00\",\"name\":\"credentials\"}",
+        "value": "{\"auth_type\":\"public\",\"access_token\":\"SAMPLE_TOKEN\",\"issue_time\":\"2026-09-04T16:54:41+00:00\",\"name\":\"credentials\"}",
         "type": "auth_info"
       }
     ],
@@ -86,25 +86,25 @@
     "outputs": [],
     "requests": [
       {
-        "id": "694ec151-aa8f-455b-82d7-9f7d2771cf09",
+        "id": "a0e9dd7f-d247-4993-902a-f2d1edcb05b4",
         "direction": "outgoing",
         "index": 2,
-        "result_id": "98887da7-6525-4545-bb12-865c376f1889",
+        "result_id": "720456bf-c3f7-4ce2-b01c-62fe26df1c78",
         "status": 200,
-        "timestamp": "2026-03-02T22:36:46.630-05:00",
+        "timestamp": "2026-09-04T16:54:42.864+00:00",
         "url": "https://inferno.healthit.gov/reference-server/r4/Patient/85",
         "verb": "get"
       }
     ],
     "result": "pass",
     "test_id": "inferno_template-patient_group-Test01",
-    "test_run_id": "d0c43855-184a-4dcd-976e-83d6f99a996c",
-    "test_session_id": "eVoeqbmbIJV",
-    "updated_at": "2026-03-02T22:36:46.629-05:00"
+    "test_run_id": "b4c8716a-fbee-4b4f-9e3a-3767c877e493",
+    "test_session_id": "awY9MBkNDt2",
+    "updated_at": "2026-09-04T16:54:42.862+00:00"
   },
   {
-    "id": "8e822421-cef1-4889-99cf-b25212a66884",
-    "created_at": "2026-03-02T22:36:50.645-05:00",
+    "id": "a176f5d7-dce7-4ec9-8352-5c496621b3e8",
+    "created_at": "2026-09-04T16:55:08.449+00:00",
     "inputs": [
       {
         "name": "url",
@@ -113,7 +113,7 @@
       },
       {
         "name": "credentials",
-        "value": "{\"auth_type\":\"public\",\"access_token\":\"SAMPLE_TOKEN\",\"issue_time\":\"2026-03-02T22:36:46-05:00\",\"name\":\"credentials\"}",
+        "value": "{\"auth_type\":\"public\",\"access_token\":\"SAMPLE_TOKEN\",\"issue_time\":\"2026-09-04T16:54:41+00:00\",\"name\":\"credentials\"}",
         "type": "auth_info"
       }
     ],
@@ -127,15 +127,7 @@
         "type": "info"
       },
       {
-        "message": "Patient/85: Patient.extension[0].extension[0].value.ofType(Coding): The definition for the Code System with URI 'urn:oid:2.16.840.1.113883.6.238' doesn't provide any codes so the code cannot be validated",
-        "type": "info"
-      },
-      {
         "message": "Patient/85: Patient.extension[1]: Unknown extension http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
-        "type": "info"
-      },
-      {
-        "message": "Patient/85: Patient.extension[1].extension[0].value.ofType(Coding): The definition for the Code System with URI 'urn:oid:2.16.840.1.113883.6.238' doesn't provide any codes so the code cannot be validated",
         "type": "info"
       },
       {
@@ -155,25 +147,25 @@
     "outputs": [],
     "requests": [
       {
-        "id": "694ec151-aa8f-455b-82d7-9f7d2771cf09",
+        "id": "a0e9dd7f-d247-4993-902a-f2d1edcb05b4",
         "direction": "outgoing",
         "index": 2,
-        "result_id": "98887da7-6525-4545-bb12-865c376f1889",
+        "result_id": "720456bf-c3f7-4ce2-b01c-62fe26df1c78",
         "status": 200,
-        "timestamp": "2026-03-02T22:36:46.630-05:00",
+        "timestamp": "2026-09-04T16:54:42.864+00:00",
         "url": "https://inferno.healthit.gov/reference-server/r4/Patient/85",
         "verb": "get"
       }
     ],
     "result": "pass",
     "test_id": "inferno_template-patient_group-Test02",
-    "test_run_id": "d0c43855-184a-4dcd-976e-83d6f99a996c",
-    "test_session_id": "eVoeqbmbIJV",
-    "updated_at": "2026-03-02T22:36:50.645-05:00"
+    "test_run_id": "b4c8716a-fbee-4b4f-9e3a-3767c877e493",
+    "test_session_id": "awY9MBkNDt2",
+    "updated_at": "2026-09-04T16:55:08.449+00:00"
   },
   {
-    "id": "52466b2f-c11f-4697-9570-6fe88b552a1e",
-    "created_at": "2026-03-02T22:36:50.656-05:00",
+    "id": "5bedc371-e4a2-442a-91be-1d3b999a83e6",
+    "created_at": "2026-09-04T16:55:08.453+00:00",
     "inputs": [
       {
         "name": "patient_id",
@@ -193,7 +185,7 @@
         "name": "credentials",
         "label": "OAuth Credentials",
         "description": null,
-        "value": "{\"auth_type\":\"public\",\"access_token\":\"SAMPLE_TOKEN\",\"issue_time\":\"2026-03-02T22:36:46-05:00\",\"name\":\"credentials\"}",
+        "value": "{\"auth_type\":\"public\",\"access_token\":\"SAMPLE_TOKEN\",\"issue_time\":\"2026-09-04T16:54:41+00:00\",\"name\":\"credentials\"}",
         "type": "auth_info"
       }
     ],
@@ -202,13 +194,13 @@
     "requests": [],
     "result": "pass",
     "test_group_id": "inferno_template-patient_group",
-    "test_run_id": "d0c43855-184a-4dcd-976e-83d6f99a996c",
-    "test_session_id": "eVoeqbmbIJV",
-    "updated_at": "2026-03-02T22:36:50.656-05:00"
+    "test_run_id": "b4c8716a-fbee-4b4f-9e3a-3767c877e493",
+    "test_session_id": "awY9MBkNDt2",
+    "updated_at": "2026-09-04T16:55:08.453+00:00"
   },
   {
-    "id": "9d550f22-08de-4b39-b05a-93b69cf979e7",
-    "created_at": "2026-03-02T22:36:50.659-05:00",
+    "id": "900b678f-54f4-42fe-9033-8ea6c5f74420",
+    "created_at": "2026-09-04T16:55:08.456+00:00",
     "inputs": [
       {
         "name": "url",
@@ -221,7 +213,7 @@
         "name": "credentials",
         "label": "OAuth Credentials",
         "description": null,
-        "value": "{\"auth_type\":\"public\",\"access_token\":\"SAMPLE_TOKEN\",\"issue_time\":\"2026-03-02T22:36:46-05:00\",\"name\":\"credentials\"}",
+        "value": "{\"auth_type\":\"public\",\"access_token\":\"SAMPLE_TOKEN\",\"issue_time\":\"2026-09-04T16:54:41+00:00\",\"name\":\"credentials\"}",
         "type": "auth_info"
       },
       {
@@ -236,9 +228,9 @@
     "outputs": [],
     "requests": [],
     "result": "pass",
-    "test_run_id": "d0c43855-184a-4dcd-976e-83d6f99a996c",
-    "test_session_id": "eVoeqbmbIJV",
+    "test_run_id": "b4c8716a-fbee-4b4f-9e3a-3767c877e493",
+    "test_session_id": "awY9MBkNDt2",
     "test_suite_id": "inferno_template",
-    "updated_at": "2026-03-02T22:36:50.659-05:00"
+    "updated_at": "2026-09-04T16:55:08.456+00:00"
   }
 ]
