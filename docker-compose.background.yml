@@ -29,5 +29,9 @@ services:
     ports:
       - "6379:6379"
     volumes:
-      - ./data/redis:/data
+      - redis_data:/data
     command: redis-server --appendonly yes
+    user: "999:999"
+
+volumes:
+  redis_data:

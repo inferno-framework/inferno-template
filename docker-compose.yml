@@ -32,3 +32,6 @@ services:
     extends:
       file: docker-compose.background.yml
       service: redis
+
+volumes:
+  redis_data:
